@@ -5,12 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biker Zone</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./images/bike-7.png" type="image/x-icon" />
     <!-- BS STYLESHEET -->
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <!-- CUSTOM STYLESHEET  -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="container-lg">
+    <!-- HEADER SECTION -->
+    <header>
+      <!-- NAVBAR SECTION -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">Biker Zone</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5 fw-semibold">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> News </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <button
+              class="btn btn-lg btn-danger fw-semibold opacity-50"
+              type="submit"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!--BS JS FILE -->
     <script src="./js/bootstrap.js"></script>
   </body>
