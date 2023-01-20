@@ -20,9 +20,9 @@
     <!-- CUSTOM STYLESHEET  -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="container-lg">
+  <body>
     <!-- HEADER SECTION -->
-    <header>
+    <header class="container-lg">
       <!-- NAVBAR SECTION -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -151,7 +151,7 @@
       </div>
     </header>
     <!-- MAIN SECTION -->
-    <main>
+    <main class="container-lg">
       <!-- HOT BIKE SECTION -->
       <section class="my-5 py-5 text-center fw-bold">
         <h1>Featured Bikes In This Year</h1>
@@ -436,6 +436,52 @@
         </div>
       </section>
     </main>
+    <!-- FOOTER  SECTION -->
+    <footer class="bg-dark">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 p-5">
+        <div class="col-7">
+          <div class="d-md-flex">
+            <p>
+              <a class="text-decoration-none text-white" href="">Download</a>
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="">License</a>
+            </p>
+          </div>
+          <div class="d-md-flex gap-2 flex-lg-row flex-sm-column">
+            <p><a class="text-decoration-none text-white" href="">About</a></p>
+            <p>
+              <a class="text-decoration-none text-white" href="">Features</a>
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="">Pricing</a>
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="">Careers</a>
+            </p>
+            <p><a class="text-decoration-none text-white" href="">Help</a></p>
+            <p>
+              <a class="text-decoration-none text-white" href=""
+                >Privacy Policy</a
+              >
+            </p>
+          </div>
+          <p class="text-white">© 2020 bike. All rights reserved</p>
+        </div>
+        <div class="col-4">
+          <p class="text-white">Get the app</p>
+          <div class="">
+            <img
+              class="img-fluid w-25 mb-3"
+              src="./images/android.png"
+              alt="img"
+            />
+            <br />
+            <img class="img-fluid w-25" src="./images/ios.png" alt="img" />
+          </div>
+        </div>
+      </div>
+    </footer>
     <!--BS JS FILE -->
     <script src="./js/bootstrap.js"></script>
   </body>
